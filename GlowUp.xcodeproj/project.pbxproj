@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA240000000000000000AAAA /* GlowUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA120000000000000000AAAA /* GlowUpApp.swift */; };
+		AA250000000000000000AAAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA130000000000000000AAAA /* ContentView.swift */; };
+		AA260000000000000000AAAA /* AnalysisRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA160000000000000000AAAA /* AnalysisRecord.swift */; };
+		AA270000000000000000AAAA /* AnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA170000000000000000AAAA /* AnalysisResult.swift */; };
+		AA280000000000000000AAAA /* ClaudeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA180000000000000000AAAA /* ClaudeAPIService.swift */; };
+		AA290000000000000000AAAA /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA190000000000000000AAAA /* SubscriptionService.swift */; };
+		AA2A0000000000000000AAAA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A0000000000000000AAAA /* HomeViewModel.swift */; };
+		AA2B0000000000000000AAAA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B0000000000000000AAAA /* HistoryView.swift */; };
+		AA2C0000000000000000AAAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C0000000000000000AAAA /* HomeView.swift */; };
+		AA2D0000000000000000AAAA /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D0000000000000000AAAA /* ImagePickerView.swift */; };
+		AA2E0000000000000000AAAA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1E0000000000000000AAAA /* MainTabView.swift */; };
+		AA2F0000000000000000AAAA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F0000000000000000AAAA /* OnboardingView.swift */; };
+		AA300000000000000000AAAA /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA200000000000000000AAAA /* PaywallView.swift */; };
+		AA310000000000000000AAAA /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA210000000000000000AAAA /* ResultsView.swift */; };
+		AA320000000000000000AAAA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA220000000000000000AAAA /* SettingsView.swift */; };
+		AA330000000000000000AAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA230000000000000000AAAA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0C0000000000000000AAAA /* GlowUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA120000000000000000AAAA /* GlowUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowUpApp.swift; sourceTree = "<group>"; };
+		AA130000000000000000AAAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA140000000000000000AAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA150000000000000000AAAA /* GlowUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlowUp.entitlements; sourceTree = "<group>"; };
+		AA160000000000000000AAAA /* AnalysisRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRecord.swift; sourceTree = "<group>"; };
+		AA170000000000000000AAAA /* AnalysisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResult.swift; sourceTree = "<group>"; };
+		AA180000000000000000AAAA /* ClaudeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAPIService.swift; sourceTree = "<group>"; };
+		AA190000000000000000AAAA /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		AA1A0000000000000000AAAA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AA1B0000000000000000AAAA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AA1C0000000000000000AAAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA1D0000000000000000AAAA /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		AA1E0000000000000000AAAA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AA1F0000000000000000AAAA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AA200000000000000000AAAA /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		AA210000000000000000AAAA /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		AA220000000000000000AAAA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA230000000000000000AAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0B0000000000000000AAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA020000000000000000AAAA = {
+			isa = PBXGroup;
+			children = (
+				AA0D0000000000000000AAAA /* GlowUp */,
+				AA030000000000000000AAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA030000000000000000AAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0C0000000000000000AAAA /* GlowUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0D0000000000000000AAAA /* GlowUp */ = {
+			isa = PBXGroup;
+			children = (
+				AA120000000000000000AAAA /* GlowUpApp.swift */,
+				AA130000000000000000AAAA /* ContentView.swift */,
+				AA140000000000000000AAAA /* Info.plist */,
+				AA150000000000000000AAAA /* GlowUp.entitlements */,
+				AA230000000000000000AAAA /* Assets.xcassets */,
+				AA0E0000000000000000AAAA /* Models */,
+				AA0F0000000000000000AAAA /* Services */,
+				AA100000000000000000AAAA /* ViewModels */,
+				AA110000000000000000AAAA /* Views */,
+			);
+			path = GlowUp;
+			sourceTree = "<group>";
+		};
+		AA0E0000000000000000AAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA160000000000000000AAAA /* AnalysisRecord.swift */,
+				AA170000000000000000AAAA /* AnalysisResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0F0000000000000000AAAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA180000000000000000AAAA /* ClaudeAPIService.swift */,
+				AA190000000000000000AAAA /* SubscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000AAAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A0000000000000000AAAA /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA110000000000000000AAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B0000000000000000AAAA /* HistoryView.swift */,
+				AA1C0000000000000000AAAA /* HomeView.swift */,
+				AA1D0000000000000000AAAA /* ImagePickerView.swift */,
+				AA1E0000000000000000AAAA /* MainTabView.swift */,
+				AA1F0000000000000000AAAA /* OnboardingView.swift */,
+				AA200000000000000000AAAA /* PaywallView.swift */,
+				AA210000000000000000AAAA /* ResultsView.swift */,
+				AA220000000000000000AAAA /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA040000000000000000AAAA /* GlowUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA060000000000000000AAAA /* Build configuration list for PBXNativeTarget "GlowUp" */;
+			buildPhases = (
+				AA090000000000000000AAAA /* Sources */,
+				AA0B0000000000000000AAAA /* Frameworks */,
+				AA0A0000000000000000AAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowUp;
+			productName = GlowUp;
+			productReference = AA0C0000000000000000AAAA /* GlowUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA010000000000000000AAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA040000000000000000AAAA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA050000000000000000AAAA /* Build configuration list for PBXProject "GlowUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA020000000000000000AAAA;
+			productRefGroup = AA030000000000000000AAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA040000000000000000AAAA /* GlowUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0A0000000000000000AAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA330000000000000000AAAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA090000000000000000AAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA240000000000000000AAAA /* GlowUpApp.swift in Sources */,
+				AA250000000000000000AAAA /* ContentView.swift in Sources */,
+				AA260000000000000000AAAA /* AnalysisRecord.swift in Sources */,
+				AA270000000000000000AAAA /* AnalysisResult.swift in Sources */,
+				AA280000000000000000AAAA /* ClaudeAPIService.swift in Sources */,
+				AA290000000000000000AAAA /* SubscriptionService.swift in Sources */,
+				AA2A0000000000000000AAAA /* HomeViewModel.swift in Sources */,
+				AA2B0000000000000000AAAA /* HistoryView.swift in Sources */,
+				AA2C0000000000000000AAAA /* HomeView.swift in Sources */,
+				AA2D0000000000000000AAAA /* ImagePickerView.swift in Sources */,
+				AA2E0000000000000000AAAA /* MainTabView.swift in Sources */,
+				AA2F0000000000000000AAAA /* OnboardingView.swift in Sources */,
+				AA300000000000000000AAAA /* PaywallView.swift in Sources */,
+				AA310000000000000000AAAA /* ResultsView.swift in Sources */,
+				AA320000000000000000AAAA /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA070000000000000000AAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA080000000000000000AAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA340000000000000000AAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlowUp/GlowUp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GlowUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.glowup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA350000000000000000AAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlowUp/GlowUp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GlowUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.glowup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA050000000000000000AAAA /* Build configuration list for PBXProject "GlowUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA070000000000000000AAAA /* Debug */,
+				AA080000000000000000AAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA060000000000000000AAAA /* Build configuration list for PBXNativeTarget "GlowUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA340000000000000000AAAA /* Debug */,
+				AA350000000000000000AAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA010000000000000000AAAA /* Project object */;
+}

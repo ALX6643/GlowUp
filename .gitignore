@@ -1,7 +1,6 @@
-# Xcode generated — do not commit, regenerate with: xcodegen generate
-*.xcodeproj/
-*.xcworkspace/
-xcuserdata/
+# Xcode user data (do not commit)
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
 DerivedData/
 .build/
 
