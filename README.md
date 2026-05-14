@@ -6,12 +6,20 @@ SwiftUI app that uses the **Claude Vision API** to analyze your appearance and g
 
 ## Setup (requires macOS + Xcode 15+)
 
-### 1. Create the Xcode project
-1. Open Xcode → **File > New > Project** → iOS App
-2. Product Name: `GlowUp`, Bundle ID: `com.yourcompany.glowup`
-3. Interface: **SwiftUI**, Language: **Swift**, Storage: **SwiftData**
-4. Save into this folder — Xcode will create `GlowUp/GlowUp/`
-5. Delete the auto-generated `ContentView.swift` and replace with all files from this repo's `GlowUp/` folder
+### 1. Clone and generate the Xcode project
+```bash
+git clone https://github.com/ALX6643/GlowUp.git
+cd GlowUp
+
+# Install XcodeGen if you don't have it
+brew install xcodegen
+
+# Generate the .xcodeproj
+xcodegen generate
+
+# Open in Xcode
+open GlowUp.xcodeproj
+```
 
 ### 2. Set your Anthropic API key
 Open `Services/ClaudeAPIService.swift` and replace:

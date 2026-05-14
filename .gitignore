@@ -1,0 +1,9 @@
+# Xcode generated — do not commit, regenerate with: xcodegen generate
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+.build/
+
+# macOS
+.DS_Store
